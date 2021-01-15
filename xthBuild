@@ -1,0 +1,2 @@
+#!/usr/bin/env bash
+export USE_RTTI=1 && make db_bench -j 8 DEBUG_LEVEL=0 SPDK_DIR=/home/x/spdk-20.01 DISABLE_WARNING_AS_ERROR=1
